@@ -36,7 +36,7 @@ const ThemeSwicther = ({
 
     const handleApplyThemeClick = () => {
         handleApplyTheme(selectedTheme);
-        setPopupMessage(`Successfully apllied ${selectedTheme} theme`);
+        setPopupMessage(`Successfully applied ${selectedTheme} theme`);
     };
     const handleFilterChange = async event => {
         let value = event.target.value;
